@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Андрей Кузин](https://up.htmlacademy.ru/htmlcss-individual/2/user/2566453).
-* Наставник: `Дарья Шестерина`(https://htmlacademy.ru/profile/id221124).
-
+* Наставник: [Дарья Шестерина](https://htmlacademy.ru/profile/id221124).
+* Сайт [Мой проект седона] (https://kiberdsamurai.github.io/2566453-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
