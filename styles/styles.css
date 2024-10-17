@@ -1,0 +1,368 @@
+/*index start*/
+/*connecting fonts*/
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+/*styles for globals tags*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "PT Sans", "sans-serif";
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+button{
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  text-align: inherit;
+  display: inline-block;
+}
+
+input {
+  background-color: #F2F2F2;
+}
+
+.header,
+.main-content,
+.content,
+.card,
+.action,
+.input-form,
+.footer {
+  background-color: #FFFFFF;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+/*styles for buttons*/
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #756157;
+}
+
+.navigation-user__button {
+  line-height: 20px;
+}
+
+.subscribe__button {
+  background-color: #82B3D3;
+}
+/*style header*/
+.navigation__link {
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-decoration: none;
+color: #000000;
+}
+/*styles for main*/
+/*style for weclome block*/
+.main-content {
+  background-image: url(../image/background/background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #618bb3;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*style for content block*/
+.content__title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.content__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.content__description {
+  font-weight: 400;
+  text-align: center;
+}
+
+.decoration__box {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.color__box{
+  background-color:#83B3D31F;
+}
+
+.dark-color__box{
+  background-color: #83B3D333;
+}
+/*styles for action block*/
+.action__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.action__description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+/*styles for cards block*/
+.card__item{
+  background-color:#83B3D31F;
+  ;
+}
+
+.light{
+  background-color: #FFFFFF;
+}
+
+.card__text {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.card__description {
+  font-weight: 400;
+  text-align: center;
+}
+/*styles for input block*/
+.input-form__text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+.input-form__description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+/*styles for footer*/
+.subscribe__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.subscribe__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.subscribe__block-decoration {
+  background-image: url(../image/background/background-blur-index.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.telephone {
+  text-align: center;
+}
+
+.telephone-link {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/*index finish*/
+/*catalog start*/
+
+.filters__catalog {
+  background-image: url(../image/background/background-blur-catalog.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.catalog-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.breadcrumbs__link {
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.filter__title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.form-signature{
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  color: #F2F2F2;
+  background-color: #618bb3;
+}
+
+.control__value {
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+  background-color: #618bb3;
+}
+
+.input-price {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.filter__button {
+  font-family: inherit;
+}
+
+.search-results__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.product-card__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.product-card-text,
+.product-card__price {
+  font-weight: 400;
+  color: #333333;
+}
+
+.product-card__link,
+.product-card__button {
+  text-decoration: none;
+}
+
+.apply,
+.reset,
+.favorite {
+  background-color: #82B3D3;
+}
+
+.more {
+  background-color: #756157;
+}
+
+.switch-on {
+  background-color: #7DB54F;
+}
+
+.button__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.rating {
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #333333;
+background-color: #F2F2F2;
+}
+
+.pagination__link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination__text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
